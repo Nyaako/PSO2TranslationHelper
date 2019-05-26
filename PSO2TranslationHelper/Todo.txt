@@ -1,0 +1,5 @@
+﻿Todo:
+
+- Add line number to DB for editor support
+
+- Learn how to display all entries infinite scroll.
