@@ -57,8 +57,8 @@ namespace PSO2TranslationHelper
                             string[] arr = line.Split(splitchar, 2);
                             arr[1] = arr[1].Trim(" \"\"\" ".ToCharArray());
                             cmdparas.Add(fpath, arr[0], arr[1]);
-                            count++;
                         }
+                        count++;
                     }
                     catch (Exception ex)
                     {
